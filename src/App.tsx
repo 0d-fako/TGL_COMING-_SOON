@@ -23,8 +23,8 @@ function App() {
   const onSubmit = async (data: FormData) => {
     setError(null);
     try {
-      // TODO: Replace with your specific Formspree ID
-      const FORMSPREE_ENDPOINT = 'https://formspree.io/f/PLACEHOLDER';
+      // FORMSPREE_ENDPOINT
+      const FORMSPREE_ENDPOINT = 'https://formspree.io/f/meejojvd';
 
       await axios.post(FORMSPREE_ENDPOINT, {
         ...data,
